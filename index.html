@@ -22,11 +22,11 @@
 </head>
 <body>
     <!--        Navbar Section       -->
-    <nav class="nav-container flex flex-row">
+    <nav class="nav-container flex flex-row align-center justify-space-between position-fixed top-0">
         <div class="brand-name">
             Dappr
         </div>
-        <ul class="nav-list-container flex flex-row">
+        <ul class="nav-list-container flex flex-row align-center justify-space-between">
             <li class="cursor-pointer">Home</li>
             <li class="cursor-pointer">About Us</li>
             <li class="cursor-pointer">Information</li>
@@ -34,17 +34,17 @@
                 <span>More</span>
                 <img src="./assets/dropdown.svg" alt="">
             </li>
-            <li class="input-container flex flex-row cursor-pointer">
-                <input class="input-search" type="text" placeholder="Search....">
-                <img class="search-icon" src="./assets/search.svg" alt="">
+            <li class="flex flex-row cursor-pointer position-relative justify-center">
+                <input class="input-search outline-none border-none" type="text" placeholder="Search....">
+                <img class="search-icon position-absolute" src="./assets/search.svg" alt="">
             </li>
         </ul>
-        <div class="hamburger-container flex flex-row cursor-pointer">
+        <div class="hamburger-container flex flex-row cursor-pointer align-center">
             <img class="hamburger-icon" src="./assets/hamburger.svg" alt="">
         </div>
     </nav>
     <!--        Image Banner Section     -->
-    <div class="image-section-container flex flex-row">
+    <div class="image-section-container flex flex-row justify-space-between">
         <div class="banner-container">
             <img class="banner-img" src="./assets/banner.png" alt="">
         </div>
@@ -54,7 +54,7 @@
         </div>
     </div>
     <!--        Social media section        -->
-    <div class="socialmedia-container">
+    <div class="socialmedia-container position-sticky">
         <div class="flex flex-col">
             <img class="socialmedia-icons cursor-pointer" src="./assets/whatsapp.svg" alt="whatsapp icon">
             <img class="socialmedia-icons cursor-pointer" src="./assets/fb.svg" alt="fb icon">
@@ -62,7 +62,7 @@
         </div>
     </div>
     <!--        Cards section          -->
-    <div class="cards-container flex flex-row">
+    <div class="cards-container flex flex-row justify-space-between">
         <div class="card-1 flex flex-col">
             <p>Total Question's</p>
             <p class="font-20">200,000</p>
@@ -87,7 +87,7 @@
             <button class="btn background-transparent cursor-pointer">BOOKMARKS</button>
             <button class="btn background-transparent cursor-pointer">SETTINGS</button>
         </div>
-        <div class="info-content-container flex flex-col">
+        <div class="info-content-container flex flex-col position-relative">
             <p>Your information</p>
             <p>Name&nbsp;:
                 <span>Atul Singhal</span>
@@ -101,13 +101,13 @@
             <p>Marks&nbsp;:
                 <span>500.00</span>
             </p>
-            <button class="next-btn flex flex-row cursor-pointer">Next 
+            <button class="next-btn flex flex-row cursor-pointer align-center position-absolute justify-center">Next 
                 <img class="sidearrow" src="./assets/sidearrow.svg" alt="">
             </button>
         </div>
     </div>
     <!--        help button      -->
-    <div class="help-container">
+    <div class="help-container position-fixed">
         <img class="help-icon cursor-pointer" src="./assets/help.svg" alt="help icon">
     </div>
 </body>

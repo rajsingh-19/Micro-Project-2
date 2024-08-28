@@ -16,6 +16,30 @@
 .flex-col-reverse {
   flex-direction: column-reverse;
 }
+.justify-center {
+    justify-content: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.position-fixed {
+    position: fixed;
+}
+.position-absolute {
+    position: absolute;
+}
+.position-sticky {
+    position: sticky;
+}
+.position-relative {
+    position: relative;
+}
+.top-0 {
+    top: 0px;
+}
 .font-20 {
   font-size: 20px;
 }
@@ -34,10 +58,6 @@
 /*      navbar section       */
 .nav-container {
   background-color: #6f6af7;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
   width: 100%;
   padding: 12px 20px;
   z-index: 100;
@@ -59,13 +79,8 @@
   font-size: 24px;
   gap: 3rem;
 }
-.input-container {
-  justify-content: center;
-  position: relative;
-}
 .search-icon {
-  position: absolute;
-  right: 25px;
+  right: 18px;
   top: 50%;
   transform: translateY(-50%);
   height: 18px;
@@ -74,8 +89,6 @@
 .input-search {
   border-radius: 63px;
   font-weight: 400;
-  outline: none;
-  border: none;
   padding: 10px 15px;
   width: 225px;
 }
@@ -84,7 +97,6 @@
   font-weight: 400;
 }
 .hamburger-container {
-  align-items: center;
   padding: 0px 20px;
 }
 .hamburger-icon {
@@ -93,7 +105,6 @@
 }
 /*          image section        */
 .image-section-container {
-  justify-content: space-between;
   font-weight: 400;
   font-family: DM Sans;
   color: #6f7373;
@@ -126,7 +137,6 @@
 }
 /*          social media section         */
 .socialmedia-container {
-  position: sticky;
   top: 120px;
   right: 10px;
   float: right;
@@ -140,7 +150,6 @@
 }
 /*          cards section    */
 .cards-container {
-  justify-content: space-between;
   color: #ffffff;
   font-family: DM Sans;
   font-weight: 700;
@@ -207,7 +216,6 @@
   margin: 2px 2px 2px 50px;
   flex: 1;
   padding: 30px;
-  position: relative;
   z-index: 1;
 }
 .info-content-container p:first-child {
@@ -246,9 +254,6 @@
   width: 130px;
   border-radius: 9px;
   padding: 12px 35px;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
   right: 36px;
   bottom: 50px;
 }
@@ -258,7 +263,6 @@
 }
 /*          help section         */
 .help-container {
-  position: fixed;
   right: 60px;
   bottom: -20px;
   z-index: 10;
